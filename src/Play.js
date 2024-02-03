@@ -46,6 +46,7 @@ class Play extends Phaser.Scene {
         wallA.setCollideWorldBounds(true)
         wallA.setBounce(true)
         wallA.setBounce(1)
+        wallA.setImmovable(true)
         wallA.setVelocityX(Phaser.Math.Between(200, 400))
         
 
